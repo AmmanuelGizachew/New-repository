@@ -60,7 +60,6 @@ p {
 }
 .hobby-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
   margin-top: 1.5rem;
 }
@@ -84,10 +83,6 @@ p {
   margin: 1rem 0;
 }
 
-.image-caption {
-  font-style: italic;
-  color: #666;
-}
 footer {
   background: #333;
   color: white;
@@ -95,3 +90,4 @@ footer {
   padding: 1.5rem;
   margin-top: 2rem;
 }
+
